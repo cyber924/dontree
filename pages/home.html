@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="신용카드 대납·법인카드대납의 조건과 유의사항을 안내합니다." />
+  <title>신용카드 대납·법인카드대납 상담 안내</title>
+  <style>
+    :root{--navy:#062f45;--navy2:#0a4b6c;--cyan:#54d5f5;--cyan2:#06a6d6;--ink:#00253b;--muted:#5d7585;--line:#d8e4eb;--paper:#f3f7fa;--white:#fff;--green:#1ed6aa}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Pretendard,"Noto Sans KR","Apple SD Gothic Neo",Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}a{text-decoration:none;color:inherit}button,a{ -webkit-tap-highlight-color:transparent}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}
+    header{height:74px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;position:relative;z-index:10}.header-inner{width:min(1400px,calc(100% - 64px));margin:auto;display:flex;align-items:center;gap:38px}.brand{display:flex;align-items:center;gap:13px;min-width:250px}.card-icon{width:31px;height:23px;border-radius:5px;background:#ffc20a;border:3px solid #012f48;box-shadow:inset 0 0 0 2px #ffdd55;position:relative}.card-icon:after{content:"";position:absolute;left:2px;right:2px;top:6px;height:3px;background:#fff}.brand strong{display:block;font-size:17px;letter-spacing:-.7px}.brand small{display:block;color:#6e8492;font-size:11px;margin-top:-2px}.nav{display:flex;gap:35px;font-size:15px;font-weight:800}.nav a:hover{color:#0085b7}.header-actions{margin-left:auto;display:flex;gap:10px;align-items:center}.phone-box{border:1px solid #cfe3ed;border-radius:14px;padding:5px 17px;background:#f0faff;display:flex;gap:11px;align-items:center;line-height:1.15}.phone-box span{font-size:21px}.phone-box small{display:block;color:#0386b7;font-size:10px}.phone-box b{font-size:16px}.login{padding:11px 19px;border:1px solid #cfe0e9;border-radius:12px;color:#00789f;font-weight:800}
+    main{padding:36px 0 120px}.crumb{font-size:13px;color:#7690a0;margin-bottom:25px}.crumb b{color:#54768a}.hero{background:linear-gradient(122deg,#052d42 0%,#063a53 57%,#0b5274 100%);border-radius:28px;min-height:548px;color:#fff;padding:62px;display:grid;grid-template-columns:1.7fr .95fr;gap:56px;align-items:center;box-shadow:0 30px 45px rgba(1,38,58,.13)}.eyebrow{color:var(--cyan);font-size:14px;font-weight:900;margin:0 0 18px}.hero h1{font-size:46px;line-height:1.36;letter-spacing:-2.1px;margin:0 0 12px;font-weight:500}.hero h1 strong{font-weight:500;color:#65ddfa}.hero p{font-size:16px;color:#cfe4ee;margin:0 0 28px;max-width:670px}.buttons{display:flex;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 23px;border-radius:12px;font-size:16px;font-weight:900;border:1px solid #4e7790}.btn-primary{background:var(--cyan);border-color:var(--cyan);color:#043047}.btn-outline{color:#fff}.checks{display:flex;flex-wrap:wrap;gap:20px;margin-top:22px;color:#c9e1eb;font-size:13px}.checks span:before{content:"✓";color:var(--green);font-weight:900;margin-right:7px}.summary{min-height:425px;border-radius:20px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.17);padding:27px 28px}.summary h2{font-size:18px;margin:0 0 4px}.summary dl{margin:0}.summary div{padding:14px 0 16px;border-top:1px solid rgba(255,255,255,.13)}.summary dt{font-size:13px;color:var(--cyan);font-weight:900;margin-bottom:4px}.summary dd{margin:0;color:#f0f7fa;font-size:14px;line-height:1.55}
+    .content-card{margin-top:28px;background:#fff;border:1px solid var(--line);border-radius:23px;padding:42px}.content-card h2{font-size:25px;margin:0 0 19px;letter-spacing:-.8px}.content-card h3{font-size:19px;margin:29px 0 10px}.content-card p{font-size:16px;color:#3d6175;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:25px}.info{background:#f5fbfe;border:1px solid #dceaf1;border-radius:15px;padding:22px}.info b{display:block;color:#047da7;margin-bottom:7px}.info span{font-size:14px;color:#5b7484}.notice{margin-top:24px;border-left:4px solid #ffc20a;background:#fff9e7;padding:17px 19px;border-radius:4px 12px 12px 4px;color:#574a20;font-size:14px}
+    .number{display:block;color:#0798c8;font-size:12px;font-weight:900;margin-bottom:4px}.info ul{margin:7px 0 0;padding-left:18px;color:#5b7484;font-size:14px}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.step{background:#f1f7fa;border-radius:13px;padding:18px 15px;min-height:112px}.step b{color:#087fa7;font-size:14px}.step p{font-size:13px;margin-top:8px}.compare{width:100%;border-collapse:collapse;font-size:14px}.compare th{background:#eaf3f7;text-align:left}.compare th,.compare td{padding:15px 16px;border-bottom:1px solid #dce7ec}.compare td{color:#496779}.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.guide-link{border:1px solid #d8e5eb;border-radius:13px;padding:18px;transition:.2s}.guide-link:hover{border-color:#38bde4;transform:translateY(-2px)}.guide-link b{display:block;font-size:15px}.guide-link small{color:#78909e}.faq details{border-top:1px solid #dce7ec;padding:16px 0}.faq summary{font-weight:800;cursor:pointer;list-style:none}.faq summary:before{content:"▸";margin-right:8px}.faq details[open] summary:before{content:"▾"}.faq p{padding:12px 22px 0;font-size:14px}.cta{margin-top:28px;background:linear-gradient(110deg,#07364e,#0b5577);color:#fff;text-align:center;border-radius:22px;padding:34px}.cta h2{margin:0;font-size:25px}.cta p{color:#cce2ec;margin:4px 0 17px}.cta .btn{min-height:48px;background:var(--cyan);border-color:var(--cyan);color:#063149}
+    footer{background:#031828;color:#d9e8ee;padding:55px 0 135px;margin-top:30px}.footer-top{background:#082f45;border:1px solid #164d67;border-radius:20px;padding:24px 28px;display:flex;align-items:center;margin-bottom:45px}.footer-top h2{font-size:22px;margin:0}.footer-top p{font-size:13px;color:#a8c3cf;margin:4px 0 0}.footer-top .buttons{margin-left:auto}.footer-grid{display:grid;grid-template-columns:1.3fr .6fr 1fr;gap:50px}.footer-brand{font-size:21px;font-weight:900}.footer-grid h3{font-size:14px;color:#fff;margin:0 0 15px}.footer-grid p,.footer-grid a{display:block;color:#89a7b6;font-size:13px;margin:7px 0}.registration{margin-top:35px;border:1px solid #15374a;border-radius:14px;padding:20px}.registration h3{font-size:13px;margin:0 0 10px}.reg-row{display:flex;flex-wrap:wrap;gap:12px 40px;color:#86a2af;font-size:12px}.legal{margin-top:15px;background:#172c32;border:1px solid #4a4a2c;color:#dfc763;border-radius:8px;padding:12px;font-size:12px}
+    .bottom-bar{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.96);border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(11,45,62,.1);z-index:20}.bottom-inner{width:min(1400px,calc(100% - 64px));height:77px;margin:auto;display:flex;align-items:center}.bottom-title{font-size:16px;font-weight:900}.bottom-title:before{content:"💡";margin-right:7px}.bottom-actions{margin-left:auto;display:flex;gap:10px}.bottom-actions .btn{min-height:52px}.call{background:#eef9fd;color:#0484b2;border-color:#cde5ee}.check{background:#0588b7;color:#fff;border-color:#0588b7;min-width:205px}
+    @media(max-width:900px){header{height:auto;padding:14px 0}.header-inner{width:min(100% - 32px,720px);flex-wrap:wrap;gap:13px}.brand{min-width:auto}.nav{order:3;width:100%;overflow:auto;gap:24px;padding-top:8px}.header-actions{margin-left:auto}.phone-box{display:none}.hero{grid-template-columns:1fr;padding:42px 30px;gap:34px}.hero h1{font-size:37px}.summary{min-height:auto}.grid,.steps,.guide-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}.footer-top{align-items:flex-start;gap:20px}.footer-top .buttons{margin-left:0}.bottom-title{display:none}.bottom-actions{width:100%;margin:0}.bottom-actions .btn{flex:1}.bottom-inner{width:calc(100% - 24px)}}
+    @media(max-width:560px){.wrap{width:calc(100% - 24px)}main{padding-top:23px}.header-inner{width:calc(100% - 24px)}.brand strong{font-size:15px}.brand small,.login{display:none}.nav{font-size:13px}.hero{border-radius:20px;padding:32px 22px}.hero h1{font-size:31px;line-height:1.38;letter-spacing:-1.4px}.hero p{font-size:15px}.buttons{flex-direction:column}.btn{width:100%}.checks{gap:9px;flex-direction:column}.summary{padding:23px}.content-card{padding:29px 22px}.compare{font-size:12px}.compare th,.compare td{padding:11px 9px}.footer-top{display:block}.footer-top .buttons{margin-top:16px}.footer-grid{grid-template-columns:1fr}.bottom-inner{height:70px}.bottom-actions .btn{font-size:14px;padding:0 12px;min-width:0}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="홈으로"><i class="card-icon" aria-hidden="true"></i><span><strong>신용카드 대납·법인카드대납</strong><small>정식 등록 대부중개 상담 안내</small></span></a>
+      <nav class="nav" aria-label="주요 메뉴"><a href="/">홈</a><a href="/#about">신용카드 대납</a><a href="/corporate-card-payment/">법인카드대납</a><a href="#guide">블로그</a><a href="tel:01083932615">문의하기</a></nav>
+      <div class="header-actions"><a class="phone-box" href="tel:01083932615"><span>📞</span><div><small>상담 무료</small><b>010-8393-2615</b></div></a><a class="login" href="#conditions">로그인</a></div>
+    </div>
+  </header>
+  <main id="top">
+    <div class="wrap">
+      <div class="crumb">돈트리대부중개 &nbsp;›&nbsp; <b>신용카드 대납 상담</b></div>
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <div class="eyebrow">신용카드 대납 상담 가이드</div>
+          <h1 id="hero-title">신용카드 대납,<br><strong>카드깡이 아닌 합법적인 대출 상담</strong>으로 확인하세요</h1>
+          <p>카드 결제일이 임박했거나 카드대금이 부족한 상황에서 가능한 개인신용대출 조건, 필요서류, 한도·금리와 안전한 업체 확인 방법을 한 페이지에서 안내합니다.</p>
+          <div class="buttons"><a class="btn btn-primary" href="#conditions">한도·조건 확인하기</a><a class="btn btn-outline" href="tel:01083932615">전화 상담 010-8393-2615</a></div>
+          <div class="checks"><span>정식 등록 대부중개업체</span><span>상담중개수수료 없음</span><span>카드깡·허위결제 미취급</span></div>
+        </div>
+        <aside class="summary" aria-label="핵심 요약">
+          <h2>핵심 요약</h2>
+          <dl>
+            <div><dt>의미</dt><dd>카드대금 부족 시 합법적인 개인신용대출 가능 여부를 확인하는 상담</dd></div>
+            <div><dt>심사 기준</dt><dd>소득·신용평점·기존 부채·연체 이력·상환능력</dd></div>
+            <div><dt>주의</dt><dd>카드 비밀번호·인증번호·선입금을 요구하면 즉시 중단</dd></div>
+          </dl>
+        </aside>
+      </section>
+      <section class="content-card" id="about">
+        <h2>신용카드 대납이란?</h2>
+        <p><b>신용카드 대납</b>은 금융회사의 공식 상품명이라기보다 카드대금 부족 상황에서 이용자가 검색하는 표현입니다. 정상적인 상담은 업체가 카드를 대신 결제하거나 카드 한도를 현금으로 바꾸는 방식이 아닙니다. 신청자의 상환능력을 심사해 개인신용대출 가능 여부를 확인하고, 승인된 경우 본인 계좌로 자금을 지급받는 구조입니다.</p>
+        <div class="grid" id="conditions">
+          <div class="info"><span class="number">01</span><b>가능 조건</b><ul><li>만 19세 이상 본인 신청</li><li>급여·사업·연금 등 확인 가능한 소득</li><li>최근 연체와 기존 부채 심사</li><li>신용평점에 따른 심사결과</li></ul></div>
+          <div class="info"><span class="number">02</span><b>필요서류</b><ul><li>본인 신분증</li><li>재직 또는 사업 확인자료</li><li>급여내역·소득증빙자료</li><li>기존 대출과 월 상환액</li></ul></div>
+          <div class="info"><span class="number">03</span><b>한도·금리</b><ul><li>개인 신용심사로 한도 결정</li><li>소득 대비 부채와 월 상환액 반영</li><li>법정 최고금리 연 20% 이내</li><li>총 상환금액 계약 전 확인</li></ul></div>
+        </div>
+        <div class="notice" id="guide"><b>안전 안내</b> — 대출 여부와 조건은 개인 심사 결과에 따라 달라질 수 있습니다. 불법 카드깡, 허위매출, 개인정보·인증번호 요구, 선입금 요구에는 응하지 마세요.</div>
+      </section>
+      <section class="content-card">
+        <h2>신용카드 대납 상담 절차</h2>
+        <div class="steps">
+          <div class="step"><b>부족액 확인</b><p>카드 결제 예정금액과 부족 금액을 확인합니다.</p></div>
+          <div class="step"><b>기본조건 확인</b><p>소득, 재직, 기존 부채와 연체 여부를 확인합니다.</p></div>
+          <div class="step"><b>서류 준비</b><p>본인확인과 소득·상환능력 자료를 준비합니다.</p></div>
+          <div class="step"><b>한도·금리 비교</b><p>가능한 조건과 총 상환금액을 비교합니다.</p></div>
+          <div class="step"><b>계약 확인</b><p>금리, 기간, 상환방식과 비용을 확인합니다.</p></div>
+        </div>
+      </section>
+      <section class="content-card">
+        <h2>카드깡과 합법 대출 상담의 차이</h2>
+        <table class="compare">
+          <thead><tr><th>구분</th><th>합법적인 대출 상담</th><th>카드깡·허위결제</th></tr></thead>
+          <tbody>
+            <tr><td>심사</td><td>소득·신용·부채 확인</td><td>카드 결제만 유도</td></tr>
+            <tr><td>자금</td><td>승인 후 본인 계좌 지급</td><td>허위 매출 후 수수료 차감</td></tr>
+            <tr><td>비용</td><td>계약서에 금리와 상환액 명시</td><td>과도한 수수료·비용 불투명</td></tr>
+            <tr><td>정보</td><td>본인확인에 필요한 자료만 요청</td><td>카드 비밀번호·인증번호 요구 가능</td></tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="content-card">
+        <h2>신용카드 대납 핵심 가이드</h2>
+        <div class="guide-grid">
+          <a class="guide-link" href="#about"><b>신용카드 대납 위험 가이드</b><small>신청 전 반드시 확인해야 할 주의점</small></a>
+          <a class="guide-link" href="#conditions"><b>신용카드 대납과 카드깡 차이</b><small>합법 상담을 구별하는 기준</small></a>
+          <a class="guide-link" href="#faq"><b>카드대금 부족 시 대처 순서</b><small>연체 전 확인할 7가지</small></a>
+        </div>
+      </section>
+      <section class="content-card faq" id="faq">
+        <h2>자주 묻는 질문</h2>
+        <details><summary>신용카드 대납은 카드대금을 업체가 직접 내주는 서비스인가요?</summary><p>아닙니다. 정상적인 상담은 카드 결제를 대신하거나 한도를 현금화하지 않고, 개인신용대출 가능 여부를 심사·안내합니다.</p></details>
+        <details><summary>상담 수수료가 있나요?</summary><p>대부중개업자는 고객에게 중개수수료를 받을 수 없습니다. 상담 전 별도 비용이나 선입금을 요구하면 중단하세요.</p></details>
+        <details><summary>실제 한도와 금리는 무엇으로 결정되나요?</summary><p>소득, 신용평점, 기존 부채, 연체 이력과 상환능력 등 개인별 심사 결과에 따라 달라집니다.</p></details>
+        <details><summary>카드 비밀번호나 인증번호가 필요한가요?</summary><p>정상적인 대출 상담에서 카드 비밀번호나 문자 인증번호를 요구하지 않습니다. 절대로 제공하지 마세요.</p></details>
+      </section>
+      <section class="cta">
+        <h2>불법 현금화보다 합법적인 조건부터 확인하세요.</h2>
+        <p>상담은 무료이며 실제 한도와 금리는 심사 결과에 따라 달라집니다.</p>
+        <a class="btn" href="tel:01083932615">무료 상담 신청</a>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">
+      <div class="footer-top"><div><h2>카드대금 부담, 먼저 합법적인 조건부터 확인하세요.</h2><p>카드깡·허위결제가 아닌 정식 등록 대부중개 상담으로 카드대금·상환조건을 안내합니다.</p></div><div class="buttons"><a class="btn btn-primary" href="tel:01083932615">전화 상담</a><a class="btn btn-outline" href="#conditions">한도·조건 확인</a></div></div>
+      <div class="footer-grid">
+        <div><div class="footer-brand">돈트리대부중개</div><p>신용카드 대납·법인카드대납 관련 합법적인 금융상담 기준을 안내합니다.</p></div>
+        <div><h3>바로가기</h3><a href="/">홈</a><a href="/#about">신용카드 대납</a><a href="/corporate-card-payment/">법인카드대납</a><a href="#faq">자주 묻는 질문</a></div>
+        <div><h3>상담 및 고객지원</h3><p>전화　010-8393-2615</p><p>이메일　help@dontree.co.kr</p><p>주소　인천광역시 부평구 경원대로 6길</p></div>
+      </div>
+      <div class="registration"><h3>대부업 필수 고지사항</h3><div class="reg-row"><span>상호　돈트리대부중개</span><span>등록번호　인천부평-2022-00034</span><span>등록기관　인천광역시</span><span>대표번호　010-8393-2615</span></div><div class="legal">과도한 빚은 큰 불행을 안겨줄 수 있습니다. 대출 시 귀하의 신용등급 또는 개인신용평점이 하락할 수 있습니다.</div></div>
+    </div>
+  </footer>
+  <div class="bottom-bar"><div class="bottom-inner"><div class="bottom-title">신용카드 대납·법인카드대납 가능 조건을 확인하세요</div><div class="bottom-actions"><a class="btn call" href="tel:01083932615">📞 전화상담</a><a class="btn check" href="#conditions">대출 한도·조건 확인&nbsp; →</a></div></div></div>
+</body>
+</html>
