@@ -6,8 +6,8 @@
       "destination": "/api/index?path="
     },
     {
-      "source": "/:path*",
-      "destination": "/api/index?path=:path*"
+      "source": "/(.*)",
+      "destination": "/api/index?path=$1"
     }
   ]
 }
